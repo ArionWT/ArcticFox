@@ -8,7 +8,7 @@
 **Use [NFE Toolbox](https://github.com/TBXin/NFirmwareEditor/releases) for [installing](https://github.com/maelstrom2001/ArcticFox/wiki/How-to-install) firmware and set up your device.**
 
 ## List of supported devices:
-### Joyetech: eVic VTC Mini, eVic VTC Dual, eVic VTwo Mini, eVic VTwo, eVic AIO, eVic Basic, eVic Primo, eVic Primo 2.0, eVic Primo Mini, eGrip II / Light, Cuboid Mini, Cuboid
+**Joyetech:** eVic VTC Mini, eVic VTC Dual, eVic VTwo Mini, eVic VTwo, eVic AIO, eVic Basic, eVic Primo, eVic Primo 2.0, eVic Primo Mini, eGrip II / Light, Cuboid Mini, Cuboid
 
 ### Wismec:
 * Presa TC75W
