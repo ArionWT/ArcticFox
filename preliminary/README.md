@@ -8,35 +8,11 @@
 **Use [NFE Toolbox](https://github.com/TBXin/NFirmwareEditor/releases) for [installing](https://github.com/maelstrom2001/ArcticFox/wiki/How-to-install) firmware and set up your device.**
 
 ## List of supported devices:
-**Joyetech:** eVic VTC Mini, eVic VTC Dual, eVic VTwo Mini, eVic VTwo, eVic AIO, eVic Basic, eVic Primo, eVic Primo 2.0, eVic Primo Mini, eGrip II / Light, Cuboid Mini, Cuboid
+**Joyetech:** eVic VTC Mini, eVic VTC Dual, eVic VTwo Mini, eVic VTwo, eVic AIO, eVic Basic, eVic Primo, eVic Primo 2.0, eVic Primo Mini, eGrip II, eGrip II Light, Cuboid Mini, Cuboid, Cuboid 200
+**Wismec:** Presa TC75W, Presa TC100W, Reuleaux RX75, Reuleaux RXmini, Reuleaux RX200, Reuleaux RX200S, Reuleaux RX2/3, Reuleaux RX300, Predator 228
+**Eleaf:** Aster, iStick Pico 75W, iStick Pico Mega 80W, iStick Pico Dual, iStick Pico RDTA, iStick iPower 80W, iStick TC100W, iStick TC200W, iStick QC 200W
+**Co-branding: **VaporFlask Lite, VaporFlask Stout, VaporFlask Classic, Beyond Vape Centurion, La Petite Box, Vaporshark Switchbox
 
-### Wismec:
-* Presa TC75W
-* Presa TC100W
-* Reuleaux RX75
-* Reuleaux RXmini
-* Reuleaux RX200
-* Reuleaux RX200S
-* Reuleaux RX2/3
-* Reuleaux RX300
-* Predator 228
-* VF Lite
-* VF Stout
-* VF Classic
-* BV Centurion
-* La Petite Box
-* VS Switchbox
-
-### Eleaf:
-* Aster
-* iStick Pico 75W
-* iStick Pico Mega 80W
-* iStick Pico Dual
-* iStick Pico RDTA
-* iStick iPower 80W
-* iStick TC100W
-* iStick TC200W
-* iStick QC 200W
 
 ## Profiles
 The main difference is the profile based user interface, so to say, the DNA-style, and the larger focus on customization than original Joyetech firmware.
