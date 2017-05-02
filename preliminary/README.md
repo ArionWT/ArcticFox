@@ -17,22 +17,39 @@
 **Co-branding:** VaporFlask Lite, VaporFlask Stout, VaporFlask Classic, Beyond Vape Centurion, La Petite Box, Vaporshark Switchbox
 
 
+## Limitations
+The safe use of our software one of our main goals. We retain all factory restrictions, because the device manufacturer is not just for fun made them.
+What we call limitations?
+* Minimal Resistance (For all supported devices)
+  * 0.05 Ohm for Temperature Control mode
+  * 0.1 Ohm for Vari-Watt mode
+* Output Wattage (Depending on the device)
+* Maximum Charging Current (Depending on the device)
+* Maximum Output Current (Depending on the device)
+* Output Voltage Range (Depending on the device)
+
+"Depending on the device" means that each device has own values, which are choosen by the manufacturer. The exact values you can find on the product page on the manufacturer's website.
+
+**All requests to change these values will be rejected as we don't want you to hurt yourself or your device.**
+
+
 ## Profiles
 The main difference is the profile based user interface, so to say, the DNA-style, and the larger focus on customization than original Joyetech firmware.
 Profile is the set of parameters of used atomizer, such as coil material, resistance, power and temperature values.
 The user have 8 profiles which can be edited with NFE Toolbox, and which can be assigned to his favourite atomizers.
 
-```
-```
+![](http://i.imgur.com/GF9vAbN.gif) ![](http://i.imgur.com/n7IAwpv.gif)
 
 Profiles can be switched automatically, based on saved coil resistance, and in manual mode. All you need to use the automatic switch is to enable "Smart" mode, install atomizer and assign them to the desired profile.
 
-```
-```
+![](http://i.imgur.com/J8TXMpU.png) ![](http://i.imgur.com/PvMv2at.png)
 
 When you re-install this atomizer later, assigned profile will be activated automatically.
 If resistance of installed atomizer is not found in profiles, you'll be prompted to select new profile or re-assign existing.
+
 When you switching manually to profile that have saved resistance mismatch, you'll be prompted to update or keep settings of selected profile.
+
+![](http://i.imgur.com/2u0Jgwb.png) ![](http://i.imgur.com/prrhsrr.png)
 
 
 ## Main Screen
@@ -65,7 +82,7 @@ Hold Fire and Plus buttons (by default) for a 1 second to enter menu.
 
 ### Screen Menu
 
-![](http://i.imgur.com/ANnqWiG.png) ![](http://i.imgur.com/Z5ygFZR.png) ![](http://i.imgur.com/IKs6AeP.png) ![](http://i.imgur.com/04QP7e7.png) ![](http://i.imgur.com/f4pXIRN.png) ![](http://i.imgur.com/ozrsc7q.png)
+![](http://i.imgur.com/ANnqWiG.png) ![](http://i.imgur.com/Z5ygFZR.png) ![](http://i.imgur.com/IKs6AeP.png) ![](http://i.imgur.com/u2wvplG.png) ![](http://i.imgur.com/f4pXIRN.png) ![](http://i.imgur.com/ozrsc7q.png)
 
 * **Wake <>** - waking mod up by pressing regulatory buttons;
 * **Logo** - show logo on main screen;
@@ -75,6 +92,7 @@ Hold Fire and Plus buttons (by default) for a 1 second to enter menu.
      - **Saver** - show clock in standby mode;
 * **Timeouts**
      - **Dim** - idle time before the screen turns off;
+     - **Dim** :lock: - idle time before the screen turns off in locked state;
      - **Logo** - idle time before displaying logo;
      - **Clock** - idle time before displaying clock;
 * **Charge**
@@ -89,31 +107,37 @@ Hold Fire and Plus buttons (by default) for a 1 second to enter menu.
 
 ### Settings Menu
 
-![](http://i.imgur.com/zojcSuS.png) ![](http://i.imgur.com/V9WeYvE.png) ![](http://i.imgur.com/24Oqlur.png) ![](http://i.imgur.com/P8IkuiY.png)
+![](http://i.imgur.com/iWCQH2q.png) ![](http://i.imgur.com/mQYC7Vi.png) ![](http://i.imgur.com/24Oqlur.png) ![](http://i.imgur.com/mS1hiZY.png)
 
 * **1 Watt** - increment/decrement power by 1,0 Watt;
-* **5 Click** - Off - will switch box off, Lock - will lock all buttons but leave box powered on;
-* **Clicks** - actions assigned on 2/3/4 Fire button clicks:
-     - None;
-     - Edit Main - Joyetech default 3-clicks action;
-     - Profiles - Profiles Selector;
-     - T. Dom - temperature-dominant on/off;
-     - Clock - show/hide clock on main screen;
-     - On/Off - switch mod on/off;
-     - LSL - switch light sleep mode on/off;
-     - Main Menu - enter Main Menu, the same as Fire + ;
-     - Preheat - preheat settings for active profile;
-     - Edit Profile - enter Profile Menu;
-     - Smart On/Off - switch Smart Mode on/off;
-     - Info - show Info Screen;
-     - Reset Cnt. - show vaping stats info screen with opportunity to reset counters;
-     - Stealth - switch Stealth Mode on/off;
-     - Key Lock - switch Keylock on/off;
-     - Coil Lock - switch coil resistance lock on/off (for TC modes);
+* **Clicks** - actions assigned on
+     * **2/3/4 Fire button clicks**:
+          - None;
+          - Edit Main - Joyetech default 3-clicks action;
+          - Profiles - Profiles Selector;
+          - T. Dom - temperature-dominant on/off;
+          - Clock - show/hide clock on main screen;
+          - On/Off - switch mod on/off;
+          - LSL - switch light sleep mode on/off;
+          - Main Menu - enter Main Menu, the same as Fire + ;
+          - Preheat - preheat settings for active profile;
+          - Edit Profile - enter Profile Menu;
+          - Smart On/Off - switch Smart Mode on/off;
+          - Info - show Info Screen;
+          - Reset Cnt. - show vaping stats info screen with opportunity to reset counters;
+          - Stealth - switch Stealth Mode on/off;
+          - Key Lock - switch Keylock on/off;
+          - Coil Lock - switch coil resistance lock on/off (for TC modes);
+     * **5 Fire button clicks**:
+          - On/Off - switch mod on/off;
+          - Lock - lock all buttons but leave mod powered on;
 * **Smart** - automatic switching profiles settings:
      - Off/On/Lazy - Smart Mode behavior setting, Lazy means that profile can be switched automatically only on atomizer change while the box is in active state;
-     - resistance tolerance;
-* **RTC** - realtime clock setup;
+     - Range - resistance tolerance;
+* **Clock** - realtime clock setup;
+     - Date/Time - set current date and time;
+     - Adjust Time - precise adjusting time by 1 second step;
+     - LIRC Speed - adjusting speed of internal imprecise oscillator used on boxes without external 32768 Hz crystal on board;
 * **Expert** - settings for advanced users:
 
 ![](http://i.imgur.com/xoWDOox.png) ![](http://i.imgur.com/t24VXIO.png) ![](http://i.imgur.com/7feR2HK.png) ![](http://i.imgur.com/xoWDOox.png)
@@ -134,18 +158,17 @@ Hold Fire and Plus buttons (by default) for a 1 second to enter menu.
 * **TEMP** - board temperature sensor, Ext - thermistor, Int - MCU.
 
 
-### Powerbank
+### Power Bank
 
-```
-```
+![](http://i.imgur.com/IxyXhex.png) ![](http://i.imgur.com/pnfnHQ0.gif) ![](http://i.imgur.com/D8dLPZJ.gif)
 
-Support for Avatar RC adapter and similar. Provides charging devices with a voltage of 5 volts and current up to 2.1 amps. To start charging, put RC adapter on box, connect device and press Fire button. Powerbank mode has auto-off feature when current drain is not exceed 50 mA (indicated by blinking label "On"). To stop charging, press Fire button.
-To exit Powerbank mode press and hold Fire button, or regulatory buttons simultaneously.
+Support for Avatar RC adapter and similar. Provides charging devices with a voltage of 5 volts and current up to 2.1 amps. To start charging, put RC adapter on box, connect device and press Fire button. Power Bank mode has auto-off feature when current drain is not exceed 50 mA (indicated by blinking label "On"). To stop charging, press Fire button.
+To exit Power Bank mode press and hold Fire button, or regulatory buttons simultaneously.
 
 
 ### Info Screen
 
-![](http://i.imgur.com/bsXlfpV.png)
+![](http://i.imgur.com/bsXlfpV.png) ![](http://i.imgur.com/5FG1OD6.gif)
 
 Shows brief hardware information and some stats.
 
